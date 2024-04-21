@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Configure vault_autosnapshot on your system.
+  homepage: https://robertdebock.nl/
+  topics: vaultautosnapshot, application, cloud, database, development, infrastructure, linux, monitoring, networking, storage, security, system, tools, windows, ansible, molecule, tox, playbook
