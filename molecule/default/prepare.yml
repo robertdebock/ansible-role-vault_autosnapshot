@@ -9,4 +9,4 @@
     - role: robertdebock.core_dependencies
     - role: robertdebock.hashicorp
     - role: robertdebock.vault
-      # vault_type: ent  # Requires a license, not available in CI.
+    # vault_type: ent  # Requires a license, not available in CI.
