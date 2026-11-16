@@ -11,9 +11,6 @@ galaxy_info:
     - name: Alpine
       versions:
         - all
-    - name: Amazon
-      versions:
-        - Candidate
     - name: Debian
       versions:
         - all
@@ -25,7 +22,8 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - all
+        - noble
+        - jammy
 
   galaxy_tags:
     - vaultautosnapshot
