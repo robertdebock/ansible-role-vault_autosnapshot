@@ -29,7 +29,8 @@
       X-Vault-Token: "{{ vault_autosnapshot_token }}"
     validate_certs: "{{ vault_autosnapshot_ssl_verify }}"
   register: vault_autosnapshot_list_retreived
-  changed_when: false
+  changed_when:
+    - false
   when:
     - vault_autosnapshot_token is defined
     - vault_autosnapshot_token != ""
